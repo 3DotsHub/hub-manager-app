@@ -125,14 +125,14 @@ export const NavTree: NavBarTree[] = [
 				icon: <FontAwesomeIcon icon={faRankingStar} className="cursor-pointer" />,
 			},
 			{
-				name: 'Housing',
-				to: 'cooperative/housing',
-				icon: <FontAwesomeIcon icon={faCampground} className="cursor-pointer" />,
-			},
-			{
 				name: 'Contribute',
 				to: 'cooperative/contribute',
 				icon: <FontAwesomeIcon icon={faHandHoldingHeart} className="cursor-pointer" />,
+			},
+			{
+				name: 'Housing',
+				to: 'cooperative/housing',
+				icon: <FontAwesomeIcon icon={faCampground} className="cursor-pointer" />,
 			},
 			{
 				name: 'Research Hub',
