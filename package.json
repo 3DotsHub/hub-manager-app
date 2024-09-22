@@ -10,8 +10,8 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@3dotshub/hub-manager": "file:./../hub-manager",
 		"@apollo/client": "^3.8.0",
-		"graphql": "^16.8.1",
 		"@fortawesome/fontawesome-svg-core": "^6.6.0",
 		"@fortawesome/free-brands-svg-icons": "^6.6.0",
 		"@fortawesome/free-solid-svg-icons": "^6.6.0",
@@ -21,8 +21,7 @@
 		"@tanstack/react-query": "^5.51.11",
 		"@wagmi/cli": "^2.1.15",
 		"@web3modal/wagmi": "^5.0.7",
-		"eslint": "8.29.0",
-		"eslint-config-next": "^13.5.3",
+		"graphql": "^16.8.1",
 		"next": "14.2.5",
 		"pino-pretty": "^11.2.1",
 		"react": "^18",
@@ -35,7 +34,7 @@
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
 		"axios": "^1.6.2",
-		"eslint": "^8",
+		"eslint": "8.29.0",
 		"eslint-config-next": "14.2.5",
 		"postcss": "^8",
 		"prettier": "^2.8.1",
