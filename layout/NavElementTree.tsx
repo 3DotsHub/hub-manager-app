@@ -45,98 +45,98 @@ export const NavTree: NavBarTree[] = [
 		childs: [
 			{
 				name: 'Purpose',
-				to: 'home/purpose',
+				to: '/home/purpose',
 				icon: <FontAwesomeIcon icon={faFingerprint} className="cursor-pointer" />,
 			},
 			{
 				name: 'Goals',
-				to: 'home/goals',
+				to: '/home/goals',
 				icon: <FontAwesomeIcon icon={faLightbulb} className="cursor-pointer" />,
 			},
 			{
 				name: 'Membership',
-				to: 'home/membership',
+				to: '/home/membership',
 				icon: <FontAwesomeIcon icon={faUnlockKeyhole} className="cursor-pointer" />,
 			},
 		],
 	},
 	{
 		name: 'Server Tools',
-		to: 'servertools',
+		to: '/server',
 		icon: <FontAwesomeIcon icon={faComputer} className="cursor-pointer" size={'xl'} />,
 		childs: [
 			{
 				name: 'Hosting',
-				to: 'server/hosting',
+				to: '/server/hosting',
 				icon: <FontAwesomeIcon icon={faServer} className="cursor-pointer" />,
 			},
 			{
 				name: 'Storage',
-				to: 'server/storage',
+				to: '/server/storage',
 				icon: <FontAwesomeIcon icon={faDatabase} className="cursor-pointer" />,
 			},
 			{
 				name: 'Deployment',
-				to: 'server/deployment',
+				to: '/server/deployment',
 				icon: <FontAwesomeIcon icon={faLaptopCode} className="cursor-pointer" />,
 			},
 		],
 	},
 	{
 		name: 'Finance Tools',
-		to: 'financetools',
+		to: '/finance',
 		icon: <FontAwesomeIcon icon={faCoins} className="cursor-pointer" size={'xl'} />,
 		childs: [
 			{
 				name: 'Safeguard',
-				to: 'finance/safeguard',
+				to: '/finance/safeguard',
 				icon: <FontAwesomeIcon icon={faVault} className="cursor-pointer" />,
 			},
 			{
+				name: 'Invest',
+				to: '/finance/invest',
+				icon: <FontAwesomeIcon icon={faSeedling} className="cursor-pointer" />,
+			},
+			{
 				name: 'Lend',
-				to: 'finance/lend',
+				to: '/finance/lend',
 				icon: <FontAwesomeIcon icon={faPiggyBank} className="cursor-pointer" />,
 			},
 			{
 				name: 'Borrow',
-				to: 'finance/borrow',
+				to: '/finance/borrow',
 				icon: <FontAwesomeIcon icon={faMoneyBill1Wave} className="cursor-pointer" />,
 			},
 			{
 				name: 'Invoice',
-				to: 'finance/invoice',
+				to: '/finance/invoice',
 				icon: <FontAwesomeIcon icon={faFileInvoice} className="cursor-pointer" />,
-			},
-			{
-				name: 'Invest',
-				to: 'finance/invest',
-				icon: <FontAwesomeIcon icon={faSeedling} className="cursor-pointer" />,
 			},
 		],
 	},
 	{
 		name: 'Cooperative',
-		to: 'cooperative',
+		to: '/cooperative',
 		icon: <FontAwesomeIcon icon={faPeopleGroup} className="cursor-pointer" size={'xl'} />,
 		childs: [
 			{
 				name: 'Governance',
-				to: 'cooperative/governance',
+				to: '/cooperative/governance',
 				icon: <FontAwesomeIcon icon={faRankingStar} className="cursor-pointer" />,
 			},
 			{
 				name: 'Contribute',
-				to: 'cooperative/contribute',
+				to: '/cooperative/contribute',
 				icon: <FontAwesomeIcon icon={faHandHoldingHeart} className="cursor-pointer" />,
 			},
 			{
 				name: 'Housing',
-				to: 'cooperative/housing',
+				to: '/cooperative/housing',
 				icon: <FontAwesomeIcon icon={faCampground} className="cursor-pointer" />,
 			},
 			{
 				name: 'Research Hub',
-				to: 'cooperative/deployment',
+				to: '/cooperative/deployment',
 				icon: <FontAwesomeIcon icon={faLaptopCode} className="cursor-pointer" />,
 			},
 		],

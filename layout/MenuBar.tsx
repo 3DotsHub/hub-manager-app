@@ -8,7 +8,7 @@ export default function MenuBar() {
 	return (
 		<>
 			<div className="fixed top-0 left-0 right-0 z-10 m-3 md:m-5 md:ml-[calc(18rem+1.25rem)]">
-				<div className="bg-menubar-primary rounded-3xl shadow-lg p-5 flex justify-end items-center">
+				<div className="bg-menubar-primary bg-opacity-90 rounded-3xl shadow-lg p-5 flex justify-end items-center">
 					<div className="flex items-center space-x-4">
 						<WalletConnect />
 
