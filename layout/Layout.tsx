@@ -16,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
 			<MenuBar />
 
-			<div className="h-main pt-32 ml-0 md:ml-[18rem]">
+			<div className="h-main pt-32 max-md:pt-28 ml-0 md:ml-[18rem]">
 				<main className="block min-h-content px-4 md:px-0">{children}</main>
 				<Footer />
 			</div>

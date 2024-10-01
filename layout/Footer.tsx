@@ -22,7 +22,7 @@ export function FooterItem({ link, text, icon }: FooterItemProps) {
 export default function Footer() {
 	return (
 		<>
-			<ul className="mt-16 pb-4 flex items-center justify-center gap-8">
+			<ul className="mt-12 pb-4 flex items-center justify-center gap-8">
 				<li>
 					<FooterItem link={''} text="Github" icon={faGithub} />
 				</li>

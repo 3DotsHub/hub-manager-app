@@ -32,7 +32,7 @@ export default function NavBar({ isOpen, setState }: Props) {
 									</svg>
 								</div>
 								<div
-									className={`fixed inset-0 h-screen w-full bg-slate-200/50 backdrop-blur-sm ${
+									className={`fixed inset-0 h-screen w-full bg-navbar-primary bg-opacity-50 backdrop-blur-sm ${
 										isOpen ? 'block' : 'hidden'
 									}`}
 									onClick={() => setState(false)}

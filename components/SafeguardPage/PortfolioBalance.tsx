@@ -11,7 +11,7 @@ export default function SafeguardPortfolioBalance() {
 
 	return (
 		<Card>
-			<div className="mt-3 mb-5 px-2 text-xl font-semibold">Your Safeguard Balance</div>
+			<div className="mt-3 mb-5 px-2 text-xl font-semibold">Your Safeguard Balances</div>
 			<div className={`grid lg:grid-cols-2 gap-4`}>{matching.map((p) => SafeguardPortfolioBalanceItem(p))}</div>
 		</Card>
 	);
@@ -32,7 +32,7 @@ export type SafeguardPortfolioBalanceItemProps = {
 
 export function SafeguardPortfolioBalanceItem({ currency, balance, equity }: SafeguardPortfolioBalanceItemProps) {
 	return (
-		<div className="bg-yellow-200 rounded-xl shadow-md px-5 py-2 mx-2">
+		<div className="bg-yellow-200 hover:bg-yellow-300 cursor-pointer rounded-xl shadow-md px-5 py-2 mx-2">
 			<div>Symbol: {currency.toUpperCase()}</div>
 			<div>Equity: {equity}</div>
 			<div>Balance: {balance}</div>
